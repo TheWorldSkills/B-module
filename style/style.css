@@ -1,0 +1,24 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); /* 3 columns */
+  grid-template-rows: repeat(3, 150px); /* 3 rows  */
+  grid-gap: 30px 20px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.grid-item {
+  border: thin gray solid;
+  padding: 10px;
+}
+img {
+  width: 100%;
+}
+
+#drop-place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24rem;
+  height: 24rem;
+  text-align: center;
+  border: 1px solid hotpink;
+}
