@@ -6,7 +6,7 @@ h1 {
   text-align: center;
 }
 .grid {
-  width: 94vw;
+  width: 1680px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(10, 150px); /* 3 columns */
@@ -21,19 +21,34 @@ h1 {
   height: 230px;
   /* 클론 되는 오브젝트는 크기를 지정해줘야합니다 */
 }
-img {
-  width: 100%;
-}
-#drop-place {
-  display: flex;
-  width: 96vw;
-  height: 300px;
-  margin: 0 auto;
+.grid2 {
+  display: grid;
+  grid-template-columns: 18vw 32vw 18vw;
+  grid-gap: 0 4rem;
   margin-top: 4rem;
+  width: calc(68vw + 8rem);
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.grid2 > section {
+  display: flex;
+  height: 300px;
   align-items: center;
   justify-content: center;
   text-align: center;
   border: 1px solid black;
+}
+#list {
+  width: 18vw;
+}
+#del-basket {
+  width: 18vw;
+}
+#drop-place {
+  width: 32vw;
+}
+img {
+  width: 100%;
 }
 @media (max-width: 1700px) {
   .grid {
